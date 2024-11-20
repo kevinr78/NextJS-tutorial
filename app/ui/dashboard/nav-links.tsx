@@ -26,7 +26,7 @@ export default function NavLinks() {
       {links.map((link) => {
         const LinkIcon = link.icon;
         return (
-          <Link
+          <Link //github.com/kevinr78/NextJS-tutorial.git
             key={link.name}
             href={link.href}
             className={clsx(
